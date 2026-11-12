@@ -1,0 +1,1 @@
+var e={mobile:{start:0,end:619},tabletV:{start:620,end:1023},tabletH:{start:1024,end:1199},desktop:{start:1200},get mobileAll(){return{start:this.mobile.start,end:this.tabletV.end}},get tabletAll(){return{start:this.tabletV.start,end:this.tabletH.end}},get desktopAll(){return{start:this.tabletH.start}}};export{e as t};

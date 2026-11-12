@@ -1,0 +1,1 @@
+var e={SLOW:`slow`,NORMAL:`normal`,FAST:`fast`};export{e as t};

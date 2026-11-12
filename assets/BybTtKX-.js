@@ -1,0 +1,1 @@
+var e={EXTRA_SMALL:`xs`,SMALL:`s`,MEDIUM:`m`,LARGE:`l`,EXTRA_LARGE:`xl`,EXTRA_EXTRA_LARGE:`xxl`};export{e as t};

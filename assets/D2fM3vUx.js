@@ -1,0 +1,1 @@
+import{st as e}from"#entry";import{r as t}from"./I7K1tur-.js";function n(n,r){return e(n,{...r,$fetch:t()})}export{n as t};

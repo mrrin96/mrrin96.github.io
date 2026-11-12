@@ -1,0 +1,1 @@
+import{n as e}from"./Dd_uD5pT.js";import{B as t,f as n,it as r,x as i,y as a}from"./D3f5epxI.js";import{t as o}from"./xRCxxfOX.js";import{t as s}from"./CM9vKSed.js";var c=i({__name:`page-error`,props:{error:{}},setup(e){let i=e;return(e,c)=>(t(),n(o,null,{default:r(()=>[a(s,{error:i.error},null,8,[`error`])]),_:1}))}}),l=e({default:()=>u}),u=c;export{l as n,u as t};

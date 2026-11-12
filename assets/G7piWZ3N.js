@@ -1,0 +1,1 @@
+import{w as e}from"./q3a6ifDt.js";function t(t){let n=e(),r=0;return async e=>{let i=++r,a=await n.runWithContext(()=>t(e));return i===r?a:null}}export{t};

@@ -1,0 +1,1 @@
+import{t as e}from"./BGEJNojX.js";import{l as t}from"./BNhMha9i.js";function n(n,r){if(n&&r&&t){let t=e(),n=document.querySelector(`#${r}`);t.isMobileAll?setTimeout(()=>{n.scrollIntoView({block:`start`,behavior:`smooth`})},700):setTimeout(()=>{n.scrollIntoView({block:`start`,behavior:`smooth`})},0)}}export{n as t};

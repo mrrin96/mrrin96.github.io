@@ -1,0 +1,1 @@
+var e={PRIMARY:`primary`,PRIMARY_INVERSE:`primary-inverse`,SECONDARY:`secondary`,SECONDARY_INVERSE:`secondary-inverse`,TERTIARY:`tertiary`,INVERSE_LIGHT:`inverse-light`,INVERSE_DARK:`inverse-dark`};export{e as t};

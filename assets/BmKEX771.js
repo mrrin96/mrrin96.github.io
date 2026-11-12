@@ -1,0 +1,1 @@
+function e(e){let[t,n,r]=e.match(/\w\w/g).map(e=>Number.parseInt(e,16));return{r:t,g:n,b:r}}export{e as t};

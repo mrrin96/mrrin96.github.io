@@ -1,0 +1,1 @@
+var e={HERO:`h1`,CONTENT:`h2`,SUBTITLE:`h3`,STRONG:`strong`};export{e as t};

@@ -1,0 +1,1 @@
+function e(e){return e===0}var t=Object.freeze({loading:`eager`,fetchpriority:`high`}),n=Object.freeze({loading:`lazy`});function r(e=!1){return e?t:n}export{e as n,r as t};

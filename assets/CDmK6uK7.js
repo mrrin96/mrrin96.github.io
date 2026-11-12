@@ -1,0 +1,1 @@
+import{ct as e,lt as t}from"#entry";import{n,t as r}from"./I7K1tur-.js";async function i(i){let a=r(),o=t(),s=await i();return(s.data.value?.page?.statusCode===404||s.error.value?.statusCode===404)&&o&&e(o,404),n(s,a)}export{i as t};

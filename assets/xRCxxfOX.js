@@ -1,0 +1,1 @@
+import{n as e}from"./Dd_uD5pT.js";import{B as t,K as n,d as r,m as i}from"./D3f5epxI.js";import{t as a}from"./BDNMzG2s.js";var o=e({default:()=>d}),s={},c={class:`error-page`},l={class:`error-page__content`};function u(e,a){return t(),i(`section`,c,[r(`div`,l,[n(e.$slots,`default`)])])}var d=a(s,[[`render`,u]]);export{o as n,d as t};

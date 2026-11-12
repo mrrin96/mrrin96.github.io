@@ -1,0 +1,1 @@
+function e(e){return e.icon===`mail`?`_self`:e.target}export{e as t};

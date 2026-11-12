@@ -1,0 +1,1 @@
+var e={SHADOW_L:`shadow-l`,SHADOW_S:`shadow-s`};function t(t){if(t===void 0)return .6;switch(t){case e.SHADOW_L:return .6;case e.SHADOW_S:return .3;default:return 0}}export{e as n,t};
