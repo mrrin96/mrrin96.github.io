@@ -81,7 +81,6 @@ img {
   padding: 0 20px;
 }
 
-/* Header */
 .site-header {
   position: sticky;
   top: 0;
@@ -128,7 +127,7 @@ img {
   opacity: 0.7;
 }
 
-.nav-link.active {
+.nav-link.active, .nav-dropdown-btn.active {
   color: #098BB6;
 }
 
@@ -141,7 +140,7 @@ img {
   position: absolute;
   top: calc(100% + 8px);
   left: 0;
-  min-width: 250px;
+  min-width: 280px;
   background: #FFFDFB;
   border: 1px solid var(--border);
   border-radius: 14px;
@@ -231,7 +230,6 @@ img {
   color: var(--text-main);
 }
 
-/* Sections */
 .section {
   padding: 64px 0;
 }
@@ -251,18 +249,10 @@ img {
   margin: 0 0 28px 0;
 }
 
-.section-lead {
-  font-size: 16px;
-  color: var(--text-muted);
-  margin: -14px 0 32px 0;
-  max-width: 760px;
-}
-
 .text-center {
   text-align: center;
 }
 
-/* Hero */
 .hero {
   background: var(--bg-alt);
   padding: 48px 0 64px 0;
@@ -333,7 +323,6 @@ img {
   transform: translateY(-2px);
 }
 
-/* Faces badge */
 .faces-badge {
   display: inline-flex;
   align-items: center;
@@ -369,7 +358,6 @@ img {
   color: var(--text-muted);
 }
 
-/* Socials bar */
 .socials-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -402,7 +390,6 @@ img {
   fill: #FFFFFF;
 }
 
-/* Cards & Grids */
 .cards-grid-2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -453,7 +440,32 @@ img {
   text-decoration: underline;
 }
 
-/* Dedicated Pricing Page Styles */
+.services-all-banner {
+  margin-top: 24px;
+  background: #FFFFFF;
+  border: 1px solid rgba(26, 24, 23, 0.1);
+  border-radius: 16px;
+  padding: 22px 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  box-shadow: 0 6px 20px rgba(26, 24, 23, 0.04);
+}
+
+.services-all-banner-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 4px 0;
+  color: var(--text-main);
+}
+
+.services-all-banner-desc {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin: 0;
+}
+
 .price-hero-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -491,24 +503,12 @@ img {
   margin-bottom: 12px;
 }
 
-.price-feature-card h2 {
-  font-size: 23px;
-  font-weight: 600;
-  margin: 0 0 10px 0;
-}
-
 .price-big {
   font-size: 34px;
   font-weight: 700;
   color: #098BB6;
-  margin: 0 0 12px 0;
+  margin: 4px 0 12px 0;
   line-height: 1.1;
-}
-
-.price-feature-desc {
-  font-size: 15px;
-  color: var(--text-muted);
-  margin: 0;
 }
 
 .price-btn-group {
@@ -533,13 +533,6 @@ img {
   flex-direction: column;
   justify-content: space-between;
   gap: 16px;
-  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
-}
-
-.price-item-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 12px 28px rgba(26, 24, 23, 0.08);
-  border-color: rgba(18, 180, 232, 0.45);
 }
 
 .price-item-top {
@@ -575,7 +568,6 @@ img {
   flex-shrink: 0;
 }
 
-/* Testimonials */
 .testimonial-card {
   background: var(--bg-alt);
   border: 1px solid var(--border);
@@ -619,7 +611,6 @@ img {
   color: var(--text-muted);
 }
 
-/* CTA Box */
 .cta-box {
   background: var(--bg-alt);
   border: 1px solid var(--border);
@@ -647,7 +638,6 @@ img {
   opacity: 0.85;
 }
 
-/* Map */
 .map-card {
   background: var(--bg-alt);
   border: 1px solid var(--border);
@@ -671,7 +661,6 @@ img {
   font-weight: 500;
 }
 
-/* FAQ Accordion */
 .faq-list {
   display: flex;
   flex-direction: column;
@@ -730,7 +719,6 @@ img {
   display: block;
 }
 
-/* Legal & Privacy page */
 .legal-doc {
   background: #FFFDFB;
   border: 1px solid var(--border);
@@ -753,7 +741,6 @@ img {
   color: var(--text-muted);
 }
 
-/* Footer */
 .site-footer {
   padding: 32px 0 44px 0;
   text-align: center;
@@ -793,7 +780,6 @@ img {
   line-height: 1.5;
 }
 
-/* Responsive */
 @media (max-width: 920px) {
   .hero-grid {
     grid-template-columns: 1fr;
@@ -863,5 +849,9 @@ img {
   .price-item-top {
     flex-direction: column;
     gap: 10px;
+  }
+  .services-all-banner {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
