@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /70314db3-11a1-4cf8-a374-4abc5efc9e63/
+
+Host: https://arinvlawyer.ru
+Sitemap: https://arinvlawyer.ru/sitemap.xml
